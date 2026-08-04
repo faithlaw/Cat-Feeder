@@ -6,9 +6,9 @@ This is a beginner-friendly first project — no external dependencies needed
 to run it, just Python's built-in `tkinter` library.
 
 ## Project structure
-├── main.py
-├── cat.png
-└── README.md
+- main.py
+- cat.png
+- README.md
 
 ## Running it in VS Code
 1. Make sure Python 3 is installed (`python3 --version` in a terminal).
