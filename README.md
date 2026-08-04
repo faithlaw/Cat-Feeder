@@ -6,8 +6,8 @@ This is a beginner-friendly first project — no external dependencies needed
 to run it, just Python's built-in `tkinter` library.
 
 ## Project structure
-├── main.py          # The app itself — run this
-├── cat.png           # Placeholder cat image (swap with your own cat's photo!)
+├── main.py
+├── cat.png
 └── README.md
 
 ## Running it in VS Code
