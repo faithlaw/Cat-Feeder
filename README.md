@@ -32,4 +32,4 @@ natively — no extra libraries required.
 - Track feeding times with a timestamp and save them to a file
 - Add a "how many cats?" counter so each cat gets tracked separately
 - Turn it into a daily reminder that pops up automatically
-- Rebuild it as a web app (HTML/CSS/JS) once you're comfortable with the concept
+- Rebuild it as a web app (HTML/CSS/JS) once comfortable with the concept
