@@ -16,8 +16,6 @@ def on_no():
         fg=COLOR_TEXT_DARK,
     )
 
-
-# --- HEX COLOR PALETTE ---
 COLOR_BG_LIGHT = "#FDF6E3"
 COLOR_TEXT_DARK = "#3D2B1F"
 COLOR_YES_BG = "#8FBC8F"
@@ -37,16 +35,12 @@ image_path = Path(__file__).parent / "cat.png"
 
 if image_path.exists():
     raw_image = PhotoImage(file=str(image_path))
-
-    # --- THE AUTO-RESIZE FIX ---
-    # Calculates how much to shrink the image so it fits nicely into a 200px box
     img_width = raw_image.width()
     img_height = raw_image.height()
     max_dim = max(img_width, img_height)
 
     if max_dim > 200:
         scale_factor = round(max_dim / 200)
-        # subsample(2) cuts size in half, subsample(4) cuts it to a quarter, etc.
         cat_image = raw_image.subsample(scale_factor, scale_factor)
     else:
         cat_image = raw_image
